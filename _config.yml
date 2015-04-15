@@ -1,0 +1,25 @@
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "vendor", "Gemfile", "Gemfile.lock", "Guardfile", "assets.yml"]
+highlighter: pygments
+
+languages: ["en"]
+exclude_from_localizations: ["javascript", "images", "css"]
+
+title: Christina Xu - Edit Me
+description: Edit Me
+url: http://www.christinaxu.com
+permalink: /:categories/:title
+production_url: http://www.christinaxu.com
+contact_email: edit@me.com
+
+google_analytics: todo
+google_site_verification: todo
+
+markdown: redcarpet
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript", "with_toc_data", "smart"]
+
+collections:
+  seminars:
+    output: true
+  books:
+    output: true

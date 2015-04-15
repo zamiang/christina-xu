@@ -1,0 +1,12 @@
+@media (max-width: 700px) {
+  body {
+    font-size: 16px; }
+
+  header {
+    font-size: 12px; }
+    header .business-name {
+      display: none; }
+    header a {
+      font-weight: 700; }
+      header a:last-child {
+        display: none; } }
