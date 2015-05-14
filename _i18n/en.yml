@@ -1,6 +1,6 @@
 global:
   name: Hi, I'm Christina Xu.
-  about-heading: Recent Projects
+  about-heading: "Recent Projects"
   about-heading-one: enabling
   about-heading-two: teaching
   about-heading-three: observing
@@ -10,5 +10,4 @@ global:
   writing-heading: writing
   writing-subheading: ""
   bio: "Currently, I work as a freelance organizational designer and researcher as well as teaching in the <a href="http://interactiondesign.sva.edu">Interaction Design program at SVA</a>. I write weekly with the help of my friend Diana Kimball, and more sporadically and independently on 88 Bar and my own blog. I'm also an advisor to Orbital and the Data & Research Institute."
-  shortprof: "In previous lives, I have helped creators run over $2 million worth of crowdfunding campaigns while running day-to-day operations at Breadpig, served as the global coordinator for Awesome Foundation, co-founded ROFLCon (an internet culture conference/convention), and written a thesis on the history of instant messengers."
-<p /> "I believe deeply in the importance of creating community spaces, building subversive infrastructure, and nurturing intersectional identities. I'm an observer and organizer of communities, both online and off-, and I'm particularly interested in youth subcultures, cultural translation & syncretism, and user reappropriations of technology."
+  shortprof: "In previous lives, I have helped creators run over $2 million worth of crowdfunding campaigns while running day-to-day operations at Breadpig, served as the global coordinator for Awesome Foundation, co-founded ROFLCon (an internet culture conference/convention), and written a thesis on the history of instant messengers. I believe deeply in the importance of creating community spaces, building subversive infrastructure, and nurturing intersectional identities. I'm an observer and organizer of communities, both online and off-, and I'm particularly interested in youth subcultures, cultural translation & syncretism, and user reappropriations of technology."
