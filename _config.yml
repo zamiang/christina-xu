@@ -4,11 +4,11 @@ highlighter: pygments
 languages: ["en"]
 exclude_from_localizations: ["javascript", "images", "css"]
 
-title: Christina Xu - Edit Me
+title: Christina Xu
 description: Edit Me
-url: http://www.christinaxu.com
+url: http://www.christinaxu.org
 permalink: /:categories/:title
-production_url: http://www.christinaxu.com
+production_url: http://www.christinaxu.org
 contact_email: edit@me.com
 
 google_analytics: todo
