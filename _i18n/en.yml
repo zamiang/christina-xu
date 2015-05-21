@@ -1,13 +1,6 @@
 global:
   name: "Hi, I'm Christina Xu."
-  about-heading: "Recent Projects"
-  about-heading-one: "Everybody at Once"
-  about-heading-two: "O'Reilly Media"
-  about-heading-three: "???"
-  about-body-one: "Over the last year, I've been designing operational processes for Everybody at Once to enable their bootstrapped growth from 3 to 9 full-time staff in their first year. From my embedded position on the team, I identified communication gaps and processes to streamline, then worked with the team to implement solutions."
-  about-body-two: "Along with my collaborators at PL Data, I managed and conducted research for O'Reilly Media into why and how people learn professional skills. Through almost 20 in-depth interviews, we learned about the blurring line between technical and soft skills, the role of structural literacy in understanding skills, and the complex training and learning environment inside large companies. We translated these discoveries into actionable recommendations around messaging, programming, and strategy for the O'Reilly Media team."
-  about-body-three: "????"
+  bio: "I'm currently a freelance organizational designer, ethnographer, and teacher based in New York."
   writing-heading: writing
   writing-subheading: ""
-  bio: "I'm currently a freelance organizational designer, ethnographer, teacher, and advisor based in New York."
-  shortprof: """In previous lives, I have helped creators run over $2 million worth of crowdfunding campaigns while running day-to-day operations at <a href="http://www.breadpig.com">Breadpig</a>, served as the global coordinator for <a href="http://www.awesomefoundation.org">Awesome Foundation</a>, co-founded ROFLCon (an internet culture conference/convention), and written a thesis on the history of instant messengers.<br /><br />  I believe deeply in the importance of creating community spaces, building subversive infrastructure, and nurturing intersectional identities."
+ 
