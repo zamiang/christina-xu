@@ -10,10 +10,6 @@ gem 'jekyll', "~> 2.5"
 gem 'liquid'
 gem 'redcarpet'
 
-group :jekyll_plugins do
-  gem 'jekyll-multiple-languages-plugin'
-end
-
 # for asset compilation
 gem 'rake'
 gem 'guard', '~> 2.7.3'
