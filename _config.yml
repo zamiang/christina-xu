@@ -1,10 +1,10 @@
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "vendor", "Gemfile", "Gemfile.lock", "Guardfile", "assets.yml"]
 highlighter: pygments
 
-languages: ["en"]
+
 exclude_from_localizations: ["javascript", "images", "css"]
 
-title: Christina Xu
+title: Hi, I'm Christina Xu
 description: Edit Me
 url: http://www.christinaxu.org
 permalink: /:categories/:title
