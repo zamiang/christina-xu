@@ -4,7 +4,7 @@ body {
   margin: 0px;
   letter-spacing: 0.01rem;
   font-style: normal;
-  font-size: 18px;
+  font-size: 24px;
   font-family: "adobe-garamond-pro", Georgia, Cambria, "Times New Roman", Times, serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -69,7 +69,7 @@ h1 {
     font-size: 50px; }
 
 h2 {
-  font-size: 16px;
+  font-size: 18px;
   letter-spacing: 1px;
   font-family: "adobe-garamond-pro", Georgia, Cambria, "Times New Roman", Times, serif;
   -webkit-font-smoothing: antialiased;
@@ -80,7 +80,7 @@ h2 {
 h3 {
   margin-bottom: 10px;
   text-align: center;
-  font-size: 30px; }
+  font-size: 24px; }
 
 a {
   text-decoration: none; }
@@ -111,7 +111,7 @@ section {
     section.color-section .small {
       margin-bottom: 35px; }
   section .section-content {
-    max-width: 1050px;
+    max-width: 800px;
     padding: 0px 20px;
     margin: 0px auto; }
   section .border {
@@ -128,7 +128,7 @@ header {
   padding-top: 15px;
   text-align: center;
   text-transform: uppercase;
-  font-size: 16px;
+  font-size: 18px;
   color: #ccc; }
   header a {
     color: rgba(0, 0, 0, 0.8);
@@ -144,7 +144,7 @@ header {
 footer {
   text-align: center;
   padding: 10px 20px;
-  font-size: 16px;
+  font-size: 18px;
   color: #6f6f6f; }
 
 .wrapper {
@@ -182,7 +182,7 @@ footer {
     font-smoothing: antialiased;
     font-weight: 400;
     text-transform: none;
-    max-width: 533px;
+    max-width: 800px;
     margin-top: 20px; }
   .hero-unit .border, .large-footer .border {
     width: 38px;
@@ -222,12 +222,13 @@ footer {
     line-height: 130%; }
 
 .more-section-group {
-  margin-top: 40px; }
+  margin: 40px auto;
+  width: 70%; }
   .more-section-group .more-section {
     display: inline-block;
-    width: 31%;
+    width: 45%;
     vertical-align: top;
-    text-align: center; }
+    text-align: left; }
     .more-section-group .more-section img {
       width: 80px;
       margin: 0px auto; }
@@ -237,26 +238,28 @@ footer {
       margin-left: 2%; }
     .more-section-group .more-section .item-heading {
       text-align: center; }
+    .more-section-group .more-section p {
+      font-size: 18px; }
 
 .item-heading {
   font-family: "adobe-garamond-pro", Georgia, Cambria, "Times New Roman", Times, serif;
   font-weight: 800;
   text-transform: uppercase;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 148%;
   text-align: left; }
   .item-heading.large-heading {
     font-size: 22px;
     line-height: 138%;
-    margin-bottom: 7px; }
+    margin-bottom: 40px; }
 
 .item-subheading {
-  font-size: 16px;
+  font-size: 18px;
   text-align: left;
   line-height: 144%; }
 
 .small-note, .item-supheading {
-  font-size: 16px;
+  font-size: 18px;
   font-style: italic;
   color: #8B8989; }
 
@@ -308,7 +311,7 @@ footer {
       margin-left: 4%;
       display: inline-block;
       vertical-align: top;
-      font-size: 18px; }
+      font-size: 24px; }
     .about .about-section-group .about-section .faux-underline-large::before {
       margin-top: 0.25em; }
 
