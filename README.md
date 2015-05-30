@@ -25,24 +25,30 @@ something like a new team member's image.
 
 ## Editing the code
 
+NOTE: Only edit .sass files. DO NOT edit any .css files. The sass
+files will get compiled into the css. For more information please look
+at the [sass](http://sass-lang.com/) documentation and the [compass](http://compass-style.org/) documentation.
+
 If you would like to edit something else such as the CSS or
-Javascript, first clone this repository. Then `cd` into the directory
-and run:
+Javascript, first [clone this repository](http://rogerdudler.github.io/git-guide/).
+
+Then `cd` into the directory and edit the relevant .sass file.
+
+When you're ready to see your changes, run:
 
 ```bash
 $ bundle install
 $ jekyll serve --watch
-$ guard
 ```
 
-That will give you a version of the site running locally. You should
-run `guard` in another terminal window. It will compile your edited coffeescript and sass files.
+That will give you a version of the site running locally, which you can see by opening a browser and navigating to "localhost:4000". Now, open up another terminal tab (cmd+t) and initiate Guard to compile your edited coffeescript and sass files.
 
-### Editing styles
+```bash
+$ bundle exec guard
+$ all
+```
 
-NOTE: Only edit .sass files. DO NOT edit any .css files. The sass
-files will get compiled into the css. For more information please look
-at the [sass](http://sass-lang.com/) documentation and the [compass](http://compass-style.org/) documentation.
+After this is done, refresh the local version of the site; your CSS should have compiled.
 
 ### Editing templates
 
