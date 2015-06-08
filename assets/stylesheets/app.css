@@ -89,13 +89,14 @@ a, a:active, a:focus {
   outline: none; }
 
 img {
-  max-width: 100%; }
+  max-width: 100%;
+}
 
 section:eq(2) {
   background: cyan; }
 
 section {
-  padding: 80px 0px; }
+  padding: 40px 0px; }
   section.light-color-section {
     background: #FFF2AE; }
   section.color-section {
@@ -125,12 +126,19 @@ section {
 header {
   top: 0px;
   width: 100%;
-  padding-top: 15px;
+  padding-bottom: 15px;
   text-align: center;
   text-transform: uppercase;
-  font-size: 18px;
+  font-size: 16px;
   color: #ccc; }
   header a {
+    display: inline-block;
+    padding: 0px;
+    margin: 0px 10px;
+    font-family: "adobe-garamond-pro", Georgia, Cambria, "Times New Roman", Times, serif;
+    font-weight: 800;
+    line-height: 150%; }
+  header p {
     color: rgba(0, 0, 0, 0.8);
     display: inline-block;
     padding: 0px;
@@ -160,7 +168,6 @@ footer {
 
 .hero-unit, .large-footer {
   position: relative;
-  padding-bottom: 50px;
   text-align: center; }
   .hero-unit h1, .large-footer h1 {
     padding-top: 71px;
@@ -183,7 +190,8 @@ footer {
     font-weight: 400;
     text-transform: none;
     max-width: 800px;
-    margin-top: 20px; }
+    margin-top: 20px;
+    margin-bottom: 20px; }
   .hero-unit .border, .large-footer .border {
     width: 38px;
     margin: 0 auto;
@@ -222,24 +230,35 @@ footer {
     line-height: 130%; }
 
 .more-section-group {
-  margin: 40px auto;
-  width: 70%; }
-  .more-section-group .more-section {
-    display: inline-block;
-    width: 45%;
-    vertical-align: top;
-    text-align: left; }
-    .more-section-group .more-section img {
-      width: 80px;
-      margin: 0px auto; }
-    .more-section-group .more-section:first-child {
-      margin-right: 2%; }
-    .more-section-group .more-section:last-child {
-      margin-left: 2%; }
-    .more-section-group .more-section .item-heading {
-      text-align: center; }
-    .more-section-group .more-section p {
-      font-size: 18px; }
+  padding: 0 20px;
+}
+.more-section {
+  padding-bottom: 40px;
+}
+
+@media (min-width:600px) {
+
+  .more-section-group {
+    margin: 40px auto;
+    width: 70%; }
+    .more-section-group .more-section {
+      display: inline-block;
+      width: 45%;
+      vertical-align: top;
+      text-align: left; }
+      .more-section-group .more-section img {
+        width: 80px;
+        margin: 0px auto; }
+      .more-section-group .more-section:first-child {
+        margin-right: 2%; }
+      .more-section-group .more-section:last-child {
+        margin-left: 2%; }
+      .more-section-group .more-section .item-heading {
+        text-align: center; }
+      .more-section-group .more-section p {
+        font-size: 18px; }
+
+}
 
 .item-heading {
   font-family: "adobe-garamond-pro", Georgia, Cambria, "Times New Roman", Times, serif;
