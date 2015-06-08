@@ -4,12 +4,12 @@ highlighter: pygments
 
 exclude_from_localizations: ["javascript", "images", "css"]
 
-title: Hi, I'm Christina Xu
-description: Edit Me
+title: Hi, I'm Christina Xu.
+description: I'm an organizational designer and ethnographer based in New York.
 url: http://www.christinaxu.org
 permalink: /:categories/:title
 production_url: http://www.christinaxu.org
-contact_email: edit@me.com
+contact_email: hey@christinaxu.org
 
 google_analytics: todo
 google_site_verification: todo
