@@ -26,7 +26,7 @@ something like a new team member's image.
 ## Editing the code
 
 NOTE: Only edit .sass files. For more information please look
-at the [sass](http://sass-lang.com/) documentation and the [compass](http://compass-style.org/) documentation.
+at the [sass](http://sass-lang.com/) documentation.
 
 If you would like to edit something else such as the CSS or
 Javascript, first [clone this repository](http://rogerdudler.github.io/git-guide/).
@@ -42,11 +42,11 @@ $ jekyll serve --watch
 
 That will give you a version of the site running locally, which you can see by opening a browser and navigating to "localhost:4000".
 
-NOTE: You no longer need to use `guard` to complile assets.
+**NOTE: You no longer need to use `guard` to complile assets.**
 
 ### Editing templates
 
 The main homepage is index.html in the root directory of this
-project. It contains most of the markup for ea1.co but some parts are
+project. It contains most of the markup but some parts are
 configureable such as the title, description, and contact email in
 _config.yml.
