@@ -11,6 +11,10 @@ permalink: /:categories/:title
 production_url: http://www.christinaxu.org
 contact_email: hey@christinaxu.org
 
+sass:
+  style: :compressed
+  sass_dir: assets/stylesheets
+
 google_analytics: todo
 google_site_verification: todo
 
